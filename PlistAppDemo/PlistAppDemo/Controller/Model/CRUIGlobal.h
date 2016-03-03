@@ -19,4 +19,10 @@
 
 + (UIImage *)getStartImage;
 
++ (void)setRootTabbarButtonTitle:(NSArray *)title;
+
++ (NSArray *)getRootTabbarButtonTitle;
+
++ (BOOL)firstRunning;
+
 @end

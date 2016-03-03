@@ -10,4 +10,6 @@
 
 @interface CRAppUpdataNetwork : NSObject
 
++ (BOOL)decetingAppLatestEdition;
+
 @end

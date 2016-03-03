@@ -10,4 +10,12 @@
 
 @implementation CRAppUpdataNetwork
 
++ (BOOL)decetingAppLatestEdition
+{
+    //版本号：
+    [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
+    
+    return YES;
+}
+
 @end

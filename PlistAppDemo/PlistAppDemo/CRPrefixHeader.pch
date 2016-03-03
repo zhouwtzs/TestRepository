@@ -14,11 +14,12 @@
 
 #endif /* CRPrefixHeader_pch */
 
-/*====================NSlog======================*/
+/*==============
+ ======NSlog======================*/
 #ifndef DEBUG
-#define NSLog(...) NSLog(__VA_ARGS__)
-#else
 #define NSLog(...) {}
+#else
+#define NSLog(...) NSLog(__VA_ARGS__)
 #endif
 /*====================FUN====================*/
 

@@ -9,22 +9,19 @@
 /* Begin PBXBuildFile section */
 		B8E2316E1C7EB18800DBD3B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E2316D1C7EB18800DBD3B7 /* main.m */; };
 		B8E231711C7EB18800DBD3B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E231701C7EB18800DBD3B7 /* AppDelegate.m */; };
-		B8E231791C7EB18800DBD3B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E231781C7EB18800DBD3B7 /* Assets.xcassets */; };
 		B8E231871C7EB18800DBD3B7 /* PlistAppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E231861C7EB18800DBD3B7 /* PlistAppDemoTests.m */; };
 		B8E231921C7EB18800DBD3B7 /* PlistAppDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E231911C7EB18800DBD3B7 /* PlistAppDemoUITests.m */; };
 		B8E231A21C7EB38300DBD3B7 /* CRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E231A11C7EB38300DBD3B7 /* CRRootViewController.m */; };
 		B8E231A81C7EC06600DBD3B7 /* CRRootStartImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E231A71C7EC06600DBD3B7 /* CRRootStartImageView.m */; };
 		B8E231B11C7EC60600DBD3B7 /* CRUIGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E231B01C7EC60600DBD3B7 /* CRUIGlobal.m */; };
-		B8E231BF1C7ED2C500DBD3B7 /* IMG1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8E231BB1C7ED2C500DBD3B7 /* IMG1.jpg */; };
-		B8E231C01C7ED2C500DBD3B7 /* IMG2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8E231BC1C7ED2C500DBD3B7 /* IMG2.jpg */; };
-		B8E231C11C7ED2C500DBD3B7 /* IMG3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8E231BD1C7ED2C500DBD3B7 /* IMG3.jpg */; };
-		B8E231C21C7ED2C500DBD3B7 /* IMG4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8E231BE1C7ED2C500DBD3B7 /* IMG4.jpg */; };
 		B8E231C51C7EDA7600DBD3B7 /* CRWCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E231C41C7EDA7600DBD3B7 /* CRWCViewController.m */; };
 		B8E231C81C7EDA9800DBD3B7 /* CRTXLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E231C71C7EDA9800DBD3B7 /* CRTXLViewController.m */; };
 		B8E231CB1C7EDAAB00DBD3B7 /* CRFXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E231CA1C7EDAAB00DBD3B7 /* CRFXViewController.m */; };
 		B8E231CE1C7EDABD00DBD3B7 /* CRMEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E231CD1C7EDABD00DBD3B7 /* CRMEViewController.m */; };
 		B8E231D11C7EE74C00DBD3B7 /* CRLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8E231D31C7EE74C00DBD3B7 /* CRLocalizable.strings */; };
 		B8E231E21C7EF9E800DBD3B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E231E11C7EF9E800DBD3B7 /* Images.xcassets */; };
+		B8EA4B9F1C8001F800FBE406 /* CRAppUpdataNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EA4B9E1C8001F800FBE406 /* CRAppUpdataNetwork.m */; };
+		B8EA4BA11C803EA100FBE406 /* startImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8EA4BA01C803EA100FBE406 /* startImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +46,6 @@
 		B8E2316D1C7EB18800DBD3B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8E2316F1C7EB18800DBD3B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8E231701C7EB18800DBD3B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8E231781C7EB18800DBD3B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		B8E2317D1C7EB18800DBD3B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8E231821C7EB18800DBD3B7 /* PlistAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlistAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E231861C7EB18800DBD3B7 /* PlistAppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlistAppDemoTests.m; sourceTree = "<group>"; };
@@ -63,10 +59,6 @@
 		B8E231A71C7EC06600DBD3B7 /* CRRootStartImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRRootStartImageView.m; sourceTree = "<group>"; };
 		B8E231AF1C7EC60600DBD3B7 /* CRUIGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRUIGlobal.h; sourceTree = "<group>"; };
 		B8E231B01C7EC60600DBD3B7 /* CRUIGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRUIGlobal.m; sourceTree = "<group>"; };
-		B8E231BB1C7ED2C500DBD3B7 /* IMG1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG1.jpg; sourceTree = "<group>"; };
-		B8E231BC1C7ED2C500DBD3B7 /* IMG2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG2.jpg; sourceTree = "<group>"; };
-		B8E231BD1C7ED2C500DBD3B7 /* IMG3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG3.jpg; sourceTree = "<group>"; };
-		B8E231BE1C7ED2C500DBD3B7 /* IMG4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG4.jpg; sourceTree = "<group>"; };
 		B8E231C31C7EDA7600DBD3B7 /* CRWCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRWCViewController.h; sourceTree = "<group>"; };
 		B8E231C41C7EDA7600DBD3B7 /* CRWCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRWCViewController.m; sourceTree = "<group>"; };
 		B8E231C61C7EDA9800DBD3B7 /* CRTXLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRTXLViewController.h; sourceTree = "<group>"; };
@@ -79,6 +71,9 @@
 		B8E231D91C7EE8C400DBD3B7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/CRLocalizable.strings"; sourceTree = "<group>"; };
 		B8E231DE1C7EEDD500DBD3B7 /* CRPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRPrefixHeader.pch; sourceTree = "<group>"; };
 		B8E231E11C7EF9E800DBD3B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8EA4B9D1C8001F800FBE406 /* CRAppUpdataNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAppUpdataNetwork.h; sourceTree = "<group>"; };
+		B8EA4B9E1C8001F800FBE406 /* CRAppUpdataNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAppUpdataNetwork.m; sourceTree = "<group>"; };
+		B8EA4BA01C803EA100FBE406 /* startImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = startImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,7 +169,6 @@
 		B8E2319F1C7EB1B600DBD3B7 /* RootGroup */ = {
 			isa = PBXGroup;
 			children = (
-				B8E231781C7EB18800DBD3B7 /* Assets.xcassets */,
 				B8E231A01C7EB38300DBD3B7 /* CRRootViewController.h */,
 				B8E231A11C7EB38300DBD3B7 /* CRRootViewController.m */,
 				B8E231C31C7EDA7600DBD3B7 /* CRWCViewController.h */,
@@ -201,6 +195,8 @@
 			children = (
 				B8E231AF1C7EC60600DBD3B7 /* CRUIGlobal.h */,
 				B8E231B01C7EC60600DBD3B7 /* CRUIGlobal.m */,
+				B8EA4B9D1C8001F800FBE406 /* CRAppUpdataNetwork.h */,
+				B8EA4B9E1C8001F800FBE406 /* CRAppUpdataNetwork.m */,
 			);
 			name = Model;
 			path = Controller/Model;
@@ -218,10 +214,7 @@
 		B8E231BA1C7ED29300DBD3B7 /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				B8E231BB1C7ED2C500DBD3B7 /* IMG1.jpg */,
-				B8E231BC1C7ED2C500DBD3B7 /* IMG2.jpg */,
-				B8E231BD1C7ED2C500DBD3B7 /* IMG3.jpg */,
-				B8E231BE1C7ED2C500DBD3B7 /* IMG4.jpg */,
+				B8EA4BA01C803EA100FBE406 /* startImage.jpg */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -331,11 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8E231E21C7EF9E800DBD3B7 /* Images.xcassets in Resources */,
-				B8E231C01C7ED2C500DBD3B7 /* IMG2.jpg in Resources */,
-				B8E231BF1C7ED2C500DBD3B7 /* IMG1.jpg in Resources */,
-				B8E231C11C7ED2C500DBD3B7 /* IMG3.jpg in Resources */,
-				B8E231C21C7ED2C500DBD3B7 /* IMG4.jpg in Resources */,
-				B8E231791C7EB18800DBD3B7 /* Assets.xcassets in Resources */,
+				B8EA4BA11C803EA100FBE406 /* startImage.jpg in Resources */,
 				B8E231D11C7EE74C00DBD3B7 /* CRLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +356,7 @@
 				B8E231CE1C7EDABD00DBD3B7 /* CRMEViewController.m in Sources */,
 				B8E231A21C7EB38300DBD3B7 /* CRRootViewController.m in Sources */,
 				B8E231711C7EB18800DBD3B7 /* AppDelegate.m in Sources */,
+				B8EA4B9F1C8001F800FBE406 /* CRAppUpdataNetwork.m in Sources */,
 				B8E231A81C7EC06600DBD3B7 /* CRRootStartImageView.m in Sources */,
 				B8E2316E1C7EB18800DBD3B7 /* main.m in Sources */,
 				B8E231C51C7EDA7600DBD3B7 /* CRWCViewController.m in Sources */,
@@ -591,6 +581,7 @@
 				B8E231981C7EB18800DBD3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8E231991C7EB18800DBD3B7 /* Build configuration list for PBXNativeTarget "PlistAppDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +590,7 @@
 				B8E2319B1C7EB18800DBD3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8E2319C1C7EB18800DBD3B7 /* Build configuration list for PBXNativeTarget "PlistAppDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -607,6 +599,7 @@
 				B8E2319E1C7EB18800DBD3B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

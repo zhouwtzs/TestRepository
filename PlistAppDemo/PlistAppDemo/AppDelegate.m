@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "CRRootStartImageView.h"
 #import "CRRootViewController.h"
+#import "CRAppUpdataNetwork.h"
+#import "CRUIGlobal.h"
+
 @interface AppDelegate ()
 
 //@property (nonatomic,strong)CRRootStartImageView * startImageView;
@@ -20,7 +23,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
+
     UIWindow * window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     window.backgroundColor = [UIColor whiteColor];
@@ -35,10 +38,21 @@
     
     [self.window makeKeyAndVisible];
     
+    /*====================do other===================*/
+    //1.检测是否第一次运行
+    if ([CRUIGlobal firstRunning]) {
+        
+        NSLog(@"第一次运行");
+    }
+    //2.启动startImage
     CRRootStartImageView * startimage = [[CRRootStartImageView alloc]init];
     
     [startimage showStartImage];
-    
+    //3.检测版本更新
+    if ([CRAppUpdataNetwork decetingAppLatestEdition]) {
+        
+        NSLog(@"有新版本更新啦!");
+    }
     return YES;
 }
 

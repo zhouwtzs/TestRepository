@@ -7,6 +7,7 @@
 //
 
 #import "CRRootStartImageView.h"
+#import "CRUIGlobal.h"
 
 @implementation CRRootStartImageView
 
@@ -24,11 +25,7 @@
     
     if (self) {
         
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"IMG1" ofType:@"jpg"];
-        
-        UIImage *image = [UIImage imageWithContentsOfFile:path];
-        
-        self.image = image;
+        self.image = [CRUIGlobal getStartImage];
         
         UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapOnImage:)];
         
@@ -45,11 +42,12 @@
     
     [window addSubview:self];
     
-    [self performSelector:@selector(hidStartImage) withObject:nil afterDelay:3];
+    [self performSelector:@selector(hidStartImage) withObject:nil afterDelay:2];
 }
 
 - (void)hidStartImage
 {
+    [CRUIGlobal setStartImage:nil];
     WEAKSELF;
     [UIView animateWithDuration:0.3 animations:^{
         

@@ -7,6 +7,7 @@
 //
 
 #import "CRRootViewController.h"
+#import "CRUIGlobal.h"
 
 @interface CRRootViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.tabBar.tintColor = [UIColor colorWithRed:116/255.0f green:209/255.0f blue:251/255.0f alpha:1.0f];
 }
 
 - (void)createSubViewControllers
@@ -26,9 +29,9 @@
                               @"CRFXViewController",
                               @"CRMEViewController"];
     
-    NSArray * tabbarButtonNames = @[NSLOCALSTR(@"CRWX", ),NSLOCALSTR(@"CRTXL", ),
-                                    NSLOCALSTR(@"CRFX", ),NSLOCALSTR(@"CRME", )];
+    NSArray * tabbarButtonNames = [CRUIGlobal getRootTabbarButtonTitle];
     
+    NSArray * tabbarButtonIcon = [CRUIGlobal getRootTabbarButtonIcon];
     
     [VCStringArr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         
@@ -38,8 +41,9 @@
         
         navigatioVC.tabBarItem.title = tabbarButtonNames[idx];
         
-        [self addChildViewController:navigatioVC];
+        navigatioVC.tabBarItem.image = tabbarButtonIcon[idx];
         
+        [self addChildViewController:navigatioVC];
     }];
 }
 
