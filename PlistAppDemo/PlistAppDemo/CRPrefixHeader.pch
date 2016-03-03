@@ -1,0 +1,30 @@
+//
+//  CRPrefixHeader.pch
+//  PlistAppDemo
+//
+//  Created by 周文涛 on 16/2/25.
+//  Copyright © 2016年 周文涛. All rights reserved.
+//
+
+#ifndef CRPrefixHeader_pch
+#define CRPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CRPrefixHeader_pch */
+
+/*====================NSlog======================*/
+#ifndef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...) {}
+#endif
+/*====================FUN====================*/
+
+//多语言支持
+#define NSLOCALSTR(key,comment)\
+        [[NSBundle mainBundle] localizedStringForKey:(key) value:@"" table:@"CRLocalizable"]
+
+//weakself
+#define WEAKSELF typeof(self) __weak weakSelf = self;

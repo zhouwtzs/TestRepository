@@ -1,0 +1,15 @@
+/* 
+  CRLocalizable.strings
+  PlistAppDemo
+
+  Created by 周文涛 on 16/2/25.
+  Copyright © 2016年 周文涛. All rights reserved.
+*/
+
+
+
+/*==================== RootTabbarViewController ====================*/
+"CRWX"="微信";
+"CRTXL"="通讯录";
+"CRFX"="发现";
+"CRME"="我";
