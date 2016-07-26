@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  AppleVideoEditDemo
+//
+//  Created by 周文涛 on 16/7/11.
+//  Copyright © 2016年 周文涛. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#define SCREEN_W [UIScreen mainScreen].bounds.size.width
+
+#define SCREEN_H [UIScreen mainScreen].bounds.size.height
+
+#define SCREEN_C [UIScreen mainScreen].scale
+
+#define ViewGet_W(view)(view.bounds.size.width)
+
+#define ViewGet_H(view)(view.bounds.size.height)
+
+#define WEAKSELF typeof(self) __weak weakSelf = self
+
+#import <MobileCoreServices/MobileCoreServices.h>
+
+
+#endif /* PrefixHeader_pch */
